@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Guide</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- google fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cookie&family=Dancing+Script:wght@400..700&family=Kalnia+Glaze:wght@100..700&family=Sevillana&family=Tapestry&family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <!-- Animate style cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- aos animation cd link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- bootstrap cdn link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="main-travel-div">
+
+    <div class="travel-home">
+        <!-- nav bar -->
+        <nav class="navbar navbar-expand-lg bg-body-none">
+
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <h1 class="logo-head">Travel <sub class="logo-sub">Guide</sub></h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav  ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item ">
+                            <a class="nav-link active menu-details links text-light" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Packages
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item text-dark" href="#">Kodaikkanal</a></li>
+                                <li><a class="dropdown-item text-dark" href="#">All India Package</a></li>
+                                <li><a class="dropdown-item text-dark" href="#">Paris</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  text-light" href="#">Transport</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  text-light" href="#">Hotels</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">Blogs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">Support</a>
+                        </li>
+
+                        <form class="d-flex justify-content-evenly" role="search">
+                        </form>
+                </div>
+
+            </div>
+        </nav>
+        <div class="heading">
+            <h1 class="main-head">Travel </h1>
+            <h2 class="main-second">far enough,</h2>
+            <h1 class="main-head">You meet</h1>
+            <h2 class="main-second">yourself</h2>
+        </div>
+        <div class="enq-btn-div">
+
+            <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                ENQUIRY
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">PLEASE SHARE YOUR DETAILS</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <input class="input-detils" type="text" placeholder="Name">
+                            <hr>
+                            <input class="input-detils" type="text" placeholder="Email">
+                            <hr>
+                            <input class="input-detils" type="text" placeholder="Phone Number">
+                            <hr>
+                            <label class="select-tag" for="cars">Your Preference</label>
+
+                            <select class="opt-det" name="cars" id="cars">
+                                <option value="volvo"></option>
+                                <option value="saab"></option>
+                                <option value="mercedes"></option>
+                                <option value="audi"></option>
+                            </select>
+                            <hr>
+                            <input class="input-detils" type="text" placeholder="Messages">
+                        </div>
+                        <br><br><br>
+                        <div class="modal-footer">
+                            <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
+                            <button type="button" class="btn btn-primary submit">Submit </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+    </div>
+
+
+
+    
+    <div class="honeymoon-pack">
+        <h1 class="honey-head">HONEYMOON PACKAGES</h1>
+
+        <div class="d-flex mt-5 mb-5 justify-content-evenly flex-wrap">
+            <!-- card1 -->
+            <div class="card" style="width: 18rem;">
+                <img src="https://www.ktdckerala.com/assets/images/honeymoon/houseboat1.jpg" class="card-img-top"
+                    alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Kerala Honeymoon Packages</h5>
+                    <p class="card-text days">(04 Nights / 05 days)</p>
+                    <p class="card-text">A honeymoon to kerala realfirms your belief in the nation why this incredible
+                        place is called one of the paradises on earth and called "God's own Country" </p>
+                </div>
+
+                <div class="card-body">
+                    <!-- <a href="#" class="card-link book-now">Book Now</a> -->
+                    <button class="card-link book-now">Book Now</button>
+                </div>
+            </div>
+
+            <!-- card2 -->
+            <div class="card" style="width: 18rem;">
+                <img src="https://www.budgetholidaysindia.com/images/budget-holidays-india/maldives-packages-1.jpg"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Maldives Honeymoon Packages</h5>
+                    <p class="card-text days">(04 Nights / 05 days)</p>
+                    <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt sint qui,
+                        non, ad exet. </p>
+                </div>
+
+                <div class="card-body">
+                    <!-- <a href="#" class="card-link book-now">Book Now</a> -->
+                    <button class="card-link book-now">Book Now</button>
+                </div>
+            </div>
+
+            <!-- card3 -->
+            <div class="card" style="width: 18rem;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQatC8b4UPA99E3Ng3L8c4HmUhUuJzrkDk6Tw&s"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Manali Honeymoon Packages</h5>
+                    <p class="card-text days">(04 Nights / 05 days)</p>
+                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam, ex aperiam
+                        quod aliquid eaque a non fugit porro repudiandae impedit </p>
+                </div>
+
+                <div class="card-body">
+                    <!-- <a href="#" class="card-link book-now">Book Now</a> -->
+                    <button class="card-link book-now">Book Now</button>
+                </div>
+            </div>
+
+            <!-- card4 -->
+            <div class="card" style="width: 18rem;">
+                <img src="https://www.seawatersports.com/img/newimage/activies/honeymoon-tour-packages-in-goa-price.png"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Goa Honeymoon Packages</h5>
+                    <p class="card-text days">(04 Nights / 05 days)</p>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda ab,
+                        repellat numquam quia, neque reiciendis quaerat tenetur eos architecto . </p>
+                </div>
+
+                <div class="card-body">
+                    <!-- <a href="#" class="card-link book-now">Book Now</a> -->
+                    <button class="card-link book-now">Book Now</button>
+                </div>
+            </div>
+        </div>
+
+        <button class="more">MORE PACKAGES</button>
+
+    </div>
+    <br><br><br>
+
+    <h1 class="car-head">SPECIAL KERALA FESTIVAL TOURS</h1>
+    <br><br>
+    <!-- carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <img src="https://t4.ftcdn.net/jpg/02/80/34/55/360_F_280345590_X5WHJb4jxgWqUkn1At1Nqe0qJz867EEU.jpg" class="d-block w-100 car-img" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h2 class="car-clr">KADHAKALI</h2>
+                <p>Some representative placeholder content for the first slide.</p>
+                <button class="car-more">MORE DETAILS</button>
+
+              </div>          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="https://img.etimg.com/thumb/width-1600,height-900,imgsize-38388,resizemode-75,msid-99890019/news/new-updates/thrissur-pooram-2023-heres-everything-you-may-want-to-know-about-the-temple-festival.jpg" class="d-block w-100 car-img" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h2 class="car-clr">THRISSUR POORAM</h2>
+                <p>Some representative placeholder content for the first slide.</p>
+                <button class="car-more">MORE DETAILS</button>
+              </div> 
+
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Kerala_boatrace.jpg" class="d-block w-100 car-img" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h2 class="car-clr">KERALA BOAT RACE</h2>
+                <p>Some representative placeholder content for the first slide.</p>
+                <button class="car-more">MORE DETAILS</button>
+
+              </div> 
+
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+<br><br>
+<div class="video-and-grid">
+
+    <div class="video-div">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/S5yeHOXD0MA?si=AetCc7gR2uN6aj1N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    
+       
+    <div class="gallery">
+
+        <img class="four-grid-cells gal-img"
+            src="https://jeevaniyam.in/wp-content/uploads/2023/09/onam.1.1800191.jpg"
+            alt="Northern Winter Sky Image" />
+    
+        <img class="gal-img"
+            src="https://i.pinimg.com/736x/43/63/79/4363793e21e8f27663fcb9a081cbc6c1.jpg"
+            alt="Shining Stars Image" />
+    
+        <img class="wide-image gal-img"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Kathakali_BNC.jpg/220px-Kathakali_BNC.jpg"
+            alt="A River Flowing Image" />
+    
+        <img class="gal-img"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Kathakali_BNC.jpg/220px-Kathakali_BNC.jpg"
+            alt="A cloudy Mountain Image" />
+    
+        <img class="gal-img"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Kathakali_BNC.jpg/220px-Kathakali_BNC.jpg"
+            alt="A Winter Rainbow Image" />
+    
+        <img class="wide-image gal-img"
+            src="https://media.istockphoto.com/id/838927480/photo/onam-sadya-on-a-banana-leaf.jpg?s=612x612&w=0&k=20&c=gwLv5UccfysMWJn2nEPXoQfczkCTBylrmenTmHonHrc="
+            alt="A Clean Mountain Lake" />
+    
+        <img class="gal-img"
+            src="https://static.toiimg.com/imagenext/toiblogs/photo/blogs/wp-content/uploads/2022/09/koodi_02.jpeg"
+            alt="Shining Stars Image" />
+    
+    </div>
+
+</div>
+   
+<h1 class="car-head">NORTH INDIAN TOURS</h1>
+<br><br>
+    <div class="tour-div">
+        <div class="tour-place">
+            
+            <img class="img-tour" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm7Lsvpx2CgploKAnokW-GqLXWSkI07dBPiQ&s" alt="">
+            
+            <div class="tour-details">
+                <div class="text">
+                <h1 >VARANASI</h1>
+                <p>Rs : 12000/person</p>
+                <br><br>
+                <button class="tour-book">Book Now</button>
+            </div>
+           </div>
+        </div>
+        <div class="tour-place">
+            <img class="img-tour" src="https://travelogyindia.b-cdn.net/blog/wp-content/uploads/2017/05/Dal-Lake-Kashmir.jpg" alt="">
+            <div class="tour-details">
+                <div class="text">
+                <h1 >KASHMIR</h1>
+                <p>Rs : 20000/person</p>
+                <br><br>
+                <button class="tour-book">Book Now</button>
+            </div>
+           </div>
+        </div>
+        <div class="tour-place">
+            <img class="img-tour" src="https://cdn.britannica.com/53/176353-050-5B854179/Harmandir-Sahib-Amritsar-Punjab-India.jpg" alt="">
+            <div class="tour-details">
+                <div class="text">
+                <h1 >PUNJAB</h1>
+                <p>Rs : 15000/person</p>
+                <br><br>
+                <button class="tour-book">Book Now</button>
+            </div>
+           </div>
+        </div>
+        <div class="tour-place">
+            <img class="img-tour" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCyx6-OpuEE-8Lzse__oBZa7aiPIn33GqIRawcGLsiVaifhMxgg5UUR4bDJdz0gHlyj60&usqp=CAU" alt="">
+            <div class="tour-details">
+                <div class="text">
+                <h1 >RAJASTHAN</h1>
+                <p>Rs : 14000/person</p>
+                <br><br>
+                <button class="tour-book">Book Now</button>
+            </div>
+           </div> 
+        </div>
+
+    </div>
+    <h1 class="car-head">OUR PREMIUM FEATURES</h1>
+    <p class="sub-head">we will make your dream come true</p>
+
+    <div class="main-features">
+        <div class="sub-features">
+           <div class="feature-content">
+            <div class="img-back">
+                 <img class="img-feature" src="./images/cute-romantic-couple-riding-motorcycle-vector-24222689-removebg-preview.png" alt="">
+    
+            </div>             
+            <h5>FREE BIKE RIDE</h5>
+             <a class="ride" href="">Learn More</a>
+           </div>
+        </div>
+
+        <div class="sub-features">
+            <div class="feature-content">
+                <div class="img-back">
+                <img class="img-feature" src="./images/aede6e510d50a637fd0b350d04cd7def-removebg-preview.png" alt="">
+                </div>
+                <h5>CAMPFIRE</h5>
+                <a class="ride" href="">Learn More</a>
+              </div>
+        </div>
+
+        <div class="sub-features">
+            <div class="feature-content">
+                <div class="img-back">
+                <img class="img-feature" src="./images/service-24-7-concept-call-center-support-vector-illustration-flat_186332-1024-removebg-preview.png" alt="">
+                </div>
+                <h5>24/7 SUPPORT</h5>
+                <a class="ride" href="">Learn More</a>
+              </div> 
+        </div>
+
+        <div class="sub-features">
+            <div class="feature-content">
+                <div class="img-back">
+                <img class="img-feature" src="./images/tour-vacation-guide-vector-cartoon-comic-illustration-white-background-group-tourists-listening-to-history-72208698-removebg-preview.png" alt="">
+                </div>
+                <h5>TOUR GUIDE</h5>
+                <a class="ride" href="">Learn More</a>
+              </div>
+        </div>
+
+    </div>
+    
+    <div class="blog-div">
+        <div class="blog-head">
+            <img class="blog-img" src="./images/207560666-like-message-love-email-yellow-envelope-social-media-network-chat-notification-3d-icon-realistic-removebg-preview.png" alt="">
+            <h5 class="love">Our Customers Love</h5>
+        </div>
+        <div class="d-flex mt-5 mb-5 justify-content-evenly flex-wrap box">
+            <!-- card1 -->
+            <div class="card" style="width: 16rem;">
+                <img src="https://img.freepik.com/free-photo/cartoon-style-hugging-day-celebration_23-2151033327.jpg" class="card-img-top couples"
+                    alt="...">
+                <div class="card-body">
+                    <img class="star" src="./images/3d-four-green-star-on-color-background-render-and-illustration-of-golden-star-for-premium-2D6DRM2-removebg-preview.png" alt="">
+                    <h5 class="card-title">Michael & Jenny</h5>
+                    <p class="card-text">Always so helpful ☺️
+                        We have been using this company for our last 4 holidays and we will continue to use them.</p>
+                </div>
+
+               
+            </div>
+
+              <!-- card2 -->
+              <div class="card" style="width: 16rem;">
+                <img src="https://photosly.in/wp-content/uploads/2024/03/instagram-cute-couple-dp16.jpg" class="card-img-top couples"
+                    alt="...">
+                <div class="card-body">
+                    <img class="star" src="./images/3d-four-green-star-on-color-background-render-and-illustration-of-golden-star-for-premium-2D6DRM2-removebg-preview.png" alt="">
+                    <h5 class="card-title">Rohith & Amritha</h5>
+                    <p class="card-text">Service was good. Responded to queries promptly and communication re the vouchers fairly strait forward.</p>
+                </div>
+
+                
+            </div>
+
+              <!-- card3 -->
+              <div class="card" style="width: 16rem;">
+                <img src="https://photosnow.org/wp-content/uploads/2024/04/fee8696667f071040be5c665e380fe75.jpg" class="card-img-top couples"
+                    alt="...">
+                <div class="card-body">
+                    <img class="star" src="./images/3d-four-green-star-on-color-background-render-and-illustration-of-golden-star-for-premium-2D6DRM2-removebg-preview.png" alt="">
+                    <h5 class="card-title">James & Anna</h5>
+                    <p class="card-text">Great team who managed everything smoothly and respond to questions or concerns in a timely manner</p>
+                </div>
+
+                
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <div class="footer">
+        <div class="about-us">
+            <h2 class="footer-head">ABOUT US</h2>
+            <span class="foot">Our company</span>
+            <br>
+            <span class="foot">Our Management</span><br>
+            <span class="foot">Connections</span><br>
+            <span class="foot">Annual Reports</span><br>
+            <span class="foot">Our Network</span><br>
+
+
+        </div>
+        <div class="social-media">
+            <h2 class="footer-head">SOCIAL MEDIA</h2>
+            <a href=""><i class="fa-brands fa-facebook brands"></i></a>
+            <a href=""><i class="fa-brands fa-square-instagram brands"></i></a>
+            <a href=""><i class="fa-brands fa-twitter brands"></i></a>
+            <a href=""><i class="fa-brands fa-whatsapp brands"></i></a>
+
+        </div>
+        <div class="about-img">
+            <img class="foot-img" src="https://c8.alamy.com/comp/2A3PYG6/suitcases-and-world-travel-design-2A3PYG6.jpg" alt="">
+            
+            <p class="foot foot-para">Explore the World</p>
+        </div>
+    </div>
+
+</div>
+</body>
+<!-- bootstrap cdn script tag -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+<!-- aos js cdn link -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<!-- Initialize aos -->
+<script>
+    AOS.init();
+</script>
+
+</html>

@@ -1,0 +1,313 @@
+*{
+    margin: 0px;
+    padding : 0px;
+    box-sizing: border-box;
+    font-family: "Wittgenstein", serif
+}
+
+
+.travel-home{
+   
+    
+    /* position: fixed; */
+    height: 100vh;
+    background-image: url("https://www.teahub.io/photos/full/164-1644757_winter-wallpaper-hd.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%;
+    background-size: 100%;
+    /* position: absolute */
+}
+
+.navbar-size{
+    margin-top: 20px;
+    
+}
+.nav-item{
+    color: white;
+}
+.links{
+    color: white;
+}
+.logo-head{
+    color: yellow;
+}
+.logo-sub{
+    color: black;
+    font-size: 20px;
+}
+.main-head{
+    color: white;
+    font-size: 80px;
+    text-align: center;
+}
+.main-second{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    font-family: cursive;
+    font-family: "Dancing Script", cursive;
+
+}
+.heading{
+    margin-left: 500px;
+    margin-top: 50px;
+}
+.enq-btn{
+    color: white;
+    background-color: green;
+    width: 100px;
+    height: 30px;
+}
+.enq-btn-div{
+    text-align: center;
+}
+.input-detils{
+    border: none;
+}
+.opt-det{
+    border: none;
+}
+.select-tag{
+    margin-left: -70px;
+}
+.submit{
+    color: white;
+    background-color: violet;
+    margin-right: 100px;
+}
+
+.honey-head{
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.book-now{
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    width: 100px;
+    margin-left: 70px;
+    margin-top: -50px;
+    border-radius: 6px;
+}
+.more{
+    background-color: blue;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 500px;
+}
+.more:hover{
+    background-color: red;
+}
+.card:hover{
+    box-shadow: rgba(0,0,0,0.4) 0px 2px 4px, rgba(0,0,0,0.3) 0px 7px 13px -3px, rgba(0,0,0,0.2) 0px -3px 0px inset;
+}
+.days{
+    color: red;
+}
+.car-div{
+    margin-top: 20px;
+}
+.car-head{
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.car-img{
+    height: 500px;
+}
+.car-clr{
+    color: white(2, 35, 181);
+    font-weight: 700;
+    font-size: 50px;
+}
+.car-more{
+    background-color: blue;
+    color: white;
+    width: 150px;
+    height: 50px;
+}
+.video-and-grid{
+    display: flex;
+    justify-content: space-around;
+}
+.video-div{
+    margin-left: 20px;
+
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: auto;
+    grid-auto-flow: dense;
+    gap: 6px;
+    width: 300px;
+}
+
+.gal-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+img.four-grid-cells {
+    grid-row: span 2 / auto;
+    grid-column: span 2 / auto;
+}
+
+img.wide-image {
+    grid-column: span 2 / auto;
+}
+
+
+
+.tour-div{
+    display: flex;
+    justify-content: space-around;
+}
+.tour-place{
+    position: relative;
+}
+.img-tour{
+
+    width: 300px;
+    height: 310px;
+    border: 1px solid gray;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.tour-details {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #11f4ac;
+}
+.tour-place:hover .tour-details{
+    opacity: .8;
+}
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .tour-book{
+    color: white;
+    background-color: red;
+    width: 200px;
+    height: 50px;
+    border-radius: 7px;
+  }
+  .sub-head{
+    text-align: center;
+    color: red;
+    font-size: 30px;
+    font-family: "Cookie", cursive;
+
+  }
+  .img-feature{
+    width: 150px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  .img-back{
+    background-color: rgb(249, 253, 175);
+    border-radius: 50%;
+  }
+  .main-features{
+    display: flex;
+    justify-content: space-around;
+  }
+  .feature-content{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+  }
+  .sub-features{
+    border-radius: 15px;
+    background-color: rgb(184, 181, 181);
+    width: 250px;
+    height: 300px;
+  }
+  .ride{
+    text-decoration: none;
+  }
+  .blog-head{
+   align-items: center;
+   justify-items: center;
+   text-align: center;
+   
+  }
+  .blog-div{
+    margin: 20px 0px;
+    background-color: gainsboro;
+  }
+  .blog-img{
+    width: 30px;
+    height: 30px;
+  }
+  .love{
+    color: blue;
+    font-family: "Cookie", cursive;
+    font-size: 30px;
+
+  }
+  .couples{
+    width: 300px;
+    height: 250px;
+  }
+  .star{
+    height: 50px;
+    width: 100px;
+  }
+  .footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(1, 1, 44);
+    padding: 20px 0px;
+  
+    
+  }
+  .footer-head{
+    color: orangered;
+    font-weight: 600;
+  }
+  .foot{
+    color: white;
+  }
+  .foot-para{text-align: center;
+    margin-left: 0px;
+  }
+  .brands{
+    color: white;
+    padding: 10px 20px;
+    height: 50px;
+  }
+  .foot-img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+
+  }
