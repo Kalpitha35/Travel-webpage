@@ -17,6 +17,7 @@
     overflow: hidden;
     width: 100%;
     background-size: 100%;
+    background-attachment: fixed;
     /* position: absolute */
 }
 
